@@ -7,58 +7,29 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-p {
-  font-weight: 300;
-  color: #ffd700;
-}
-
-#github {
-  width: 5%;
-  height: 5%;
-}
-
 #container {
   margin: 0 auto;
   text-align: center;
+  width: 90%;
 }
+
 .title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   text-align: center;
-
   color: white;
   font-size: 60px;
-}
-#searchInput {
-  width: 600px;
-  height: 60px;
-  max-width: 100%;
-  max-height: 100%;
-  font-family: "Roboto", sans-serif;
-
-  font-weight: 900;
-  text-align: center;
-  font-size: 36px;
-}
-
-#button {
-  width: 200px;
-  height: 40px;
-  margin-top: 30px;
-  font-size: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-}
-
-#results {
-  display: block;
   width: 100%;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  color: #ffd700;
 }
 
-.posters {
-  display: inline-block;
-  padding: 100px;
+@media (max-width: 768px) {
+  .title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 36px;
+  }
 }
