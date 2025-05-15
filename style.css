@@ -22,14 +22,32 @@ html {
   width: 100%;
 }
 
+p {
+  word-break: break-all;
+  white-space: normal;
+}
+
+#donate {
+  width: 12.5%;
+  height: 12.5%;
+}
+
 @media (max-width: 768px) {
   .title {
     font-size: 48px;
+  }
+  #donate {
+    width: 300px;
+    height: 300px;
   }
 }
 
 @media (max-width: 480px) {
   .title {
     font-size: 36px;
+  }
+  #donate {
+    width: 200px;
+    height: 200px;
   }
 }
