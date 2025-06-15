@@ -118,6 +118,64 @@ body {
   color: var(--link-hover-color);
 }
 
+.contact-section {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background: var(--card-background);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-section p {
+  margin: 0;
+  color: #cccccc;
+}
+
+.contact-section a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-section a:hover {
+  color: var(--link-hover-color);
+}
+
+.telegram-logo {
+  width: 24px;
+  height: 24px;
+  fill: var(--link-color);
+}
+
+.bitcoin-org-banner {
+  background: var(--card-background);
+  border-left: 4px solid var(--primary-color);
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 8px 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bitcoin-org-banner p {
+  margin: 0;
+  color: #cccccc;
+}
+
+.bitcoin-org-banner a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.bitcoin-org-banner a:hover {
+  color: var(--link-hover-color);
+}
+
 @media (max-width: 768px) {
   .title {
     font-size: 2.5rem;
