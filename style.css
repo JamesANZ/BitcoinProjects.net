@@ -176,6 +176,64 @@ body {
   color: var(--link-hover-color);
 }
 
+.warning-section {
+  background: #2d1b0e;
+  border: 2px solid #ff6b35;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.warning-title {
+  color: #ff6b35;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.warning-section p {
+  margin: 1rem 0;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.warning-section strong {
+  color: #ffffff;
+}
+
+.warning-section ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  color: #cccccc;
+}
+
+.warning-section li {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.warning-section code {
+  background: #1a1a1a;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #f7931a;
+  font-size: 0.9rem;
+}
+
+.warning-section a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.warning-section a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .title {
     font-size: 2.5rem;
