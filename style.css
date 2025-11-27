@@ -103,6 +103,18 @@ body {
   margin: 1rem 0;
 }
 
+.donation-address a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.donation-address a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
 .source-link {
   margin-top: 3rem;
   font-size: 0.9rem;
